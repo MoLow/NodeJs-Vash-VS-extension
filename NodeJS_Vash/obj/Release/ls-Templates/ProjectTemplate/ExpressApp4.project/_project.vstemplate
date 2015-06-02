@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Basic Azure Node.js Express 4 app (Vash view engine)</Name>
+    <Description>A basic Node.js Express 4 application using Vash view engine for Microsoft Azure</Description>
+    <DefaultName>ExpressVash</DefaultName>
+    <ProjectType>JavaScript</ProjectType>
+    <ProjectSubType></ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>sw-file-icon.png</Icon>
+    <PreviewImage>Preview.png</PreviewImage>
+    <!-- Indicates how many parent folders this item template should appear in -->
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <WizardExtension>
+    <Assembly>Microsoft.VisualStudio.Web, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>Microsoft.VisualStudio.Web.Wizard.EmptyWebTemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardExtension>
+    <Assembly>Microsoft.NodejsTools.ProjectWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>Microsoft.NodejsTools.ProjectWizard.NpmWizardExtension</FullClassName>
+  </WizardExtension>
+  <WizardExtension>
+    <Assembly>Microsoft.NodejsTools.ProjectWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>Microsoft.NodejsTools.ProjectWizard.NodejsPackageParametersExtension</FullClassName>
+  </WizardExtension>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.njsproj" File="ExpressApp4.njsproj" ReplaceParameters="true" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+      <ProjectItem ReplaceParameters="true" TargetFileName="app.js">app.js</ProjectItem>
+      <Folder Name="bin" TargetFolderName="bin">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ChangeConfig.ps1">ChangeConfig.ps1</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="download.ps1">download.ps1</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="node.cmd">node.cmd</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="setup_web.cmd">setup_web.cmd</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="www">www</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="package.json">package.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Preview.png">Preview.png</ProjectItem>
+      <Folder Name="public" TargetFolderName="public">
+        <Folder Name="stylesheets" TargetFolderName="stylesheets">
+          <ProjectItem ReplaceParameters="true" TargetFileName="style.styl">style.styl</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="README.md">README.md</ProjectItem>
+      <Folder Name="routes" TargetFolderName="routes">
+        <ProjectItem ReplaceParameters="true" TargetFileName="index.js">index.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="users.js">users.js</ProjectItem>
+      </Folder>
+      <Folder Name="views" TargetFolderName="views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="error.vash">error.vash</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="index.vash">index.vash</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="layout.vash">layout.vash</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

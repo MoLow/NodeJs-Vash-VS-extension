@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NodeJS_Vash", "NodeJS_Vash\NodeJS_Vash.csproj", "{D51B0CBB-AB54-40B4-8A39-1A1275FB0C9B}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ExpressApp2", "ExpressApp2\ExpressApp2.njsproj", "{75C66A2A-F652-43D8-808E-770042ADA309}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ExpressApp4", "ExpressApp4\ExpressApp4.njsproj", "{C6024FEA-6F25-46AC-B704-B721F3C50109}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D51B0CBB-AB54-40B4-8A39-1A1275FB0C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51B0CBB-AB54-40B4-8A39-1A1275FB0C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51B0CBB-AB54-40B4-8A39-1A1275FB0C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51B0CBB-AB54-40B4-8A39-1A1275FB0C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C66A2A-F652-43D8-808E-770042ADA309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C66A2A-F652-43D8-808E-770042ADA309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6024FEA-6F25-46AC-B704-B721F3C50109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6024FEA-6F25-46AC-B704-B721F3C50109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

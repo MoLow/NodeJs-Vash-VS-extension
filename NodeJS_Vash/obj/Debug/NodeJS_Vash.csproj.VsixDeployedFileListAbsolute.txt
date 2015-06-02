@@ -1,0 +1,8 @@
+C:\Users\Pawan Puthran\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Pawan Puthran\NodeJS Vash Engine Template\1.0\Output\ProjectTemplates\JavaScript\Node.js\vash\ExpressApp2.project.zip
+C:\Users\Pawan Puthran\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Pawan Puthran\NodeJS Vash Engine Template\1.0\Output\ProjectTemplates\JavaScript\Node.js\vash\ExpressApp4.project.zip
+C:\Users\Pawan Puthran\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Pawan Puthran\NodeJS Vash Engine Template\1.0\Output\ProjectTemplates\JavaScript\Node.js\vash\ExpressApp5.project.zip
+C:\Users\Pawan Puthran\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Pawan Puthran\NodeJS Vash Engine Template\1.0\\TemplateBuilder.dll
+C:\Users\Pawan Puthran\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Pawan Puthran\NodeJS Vash Engine Template\1.0\\extension.vsixmanifest
+C:\Users\Pawan Puthran\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Pawan Puthran\NodeJS Vash Engine Template\1.0\\logo-node.png
+C:\Users\Pawan Puthran\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Pawan Puthran\NodeJS Vash Engine Template\1.0\Output\ProjectTemplates\JavaScript\Node.js\vash\ExpressApp1.project.zip
+C:\Users\Pawan Puthran\AppData\Local\Microsoft\VisualStudio\12.0Exp\Extensions\Pawan Puthran\NodeJS Vash Engine Template\1.0\Output\ProjectTemplates\JavaScript\Node.js\hahaha\ExpressApp6.project.zip

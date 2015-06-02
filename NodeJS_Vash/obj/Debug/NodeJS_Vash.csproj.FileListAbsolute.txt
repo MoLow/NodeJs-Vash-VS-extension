@@ -1,0 +1,8 @@
+D:\Projects\Nodejs_Vash_Ext\NodeJS_Vash\NodeJS_Vash\bin\Debug\logo-node.png
+D:\Projects\Nodejs_Vash_Ext\NodeJS_Vash\NodeJS_Vash\bin\Debug\NodeJS_Vash.vsix
+D:\Projects\Nodejs_Vash_Ext\NodeJS_Vash\NodeJS_Vash\bin\Debug\extension.vsixmanifest
+D:\Projects\Nodejs_Vash_Ext\NodeJS_Vash\NodeJS_Vash\bin\Debug\TemplateBuilder.dll
+D:\Projects\Nodejs_Vash_Ext\NodeJS_Vash\NodeJS_Vash\obj\Debug\NodeJS_Vash.dll
+D:\Projects\Nodejs_Vash_Ext\NodeJS_Vash\NodeJS_Vash\obj\Debug\NodeJS_Vash.pdb
+D:\Projects\Nodejs_Vash_Ext\NodeJS_Vash\NodeJS_Vash\obj\Debug\extension.vsixmanifest
+D:\Projects\Nodejs_Vash_Ext\NodeJS_Vash\NodeJS_Vash\obj\Debug\NodeJS_Vash.csprojResolveAssemblyReference.cache

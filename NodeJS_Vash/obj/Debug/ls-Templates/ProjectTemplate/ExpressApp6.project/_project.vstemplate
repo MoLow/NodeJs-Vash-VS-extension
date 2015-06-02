@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>hahaha</Name>
+    <Description>Project description here</Description>
+    <DefaultName></DefaultName>
+    <ProjectType>JavaScript</ProjectType>
+    <ProjectSubType></ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>sw-file-icon.png</Icon>
+    <!-- Indicates how many parent folders this item template should appear in -->
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="$safeprojectname$.njsproj" File="ExpressApp6.njsproj" ReplaceParameters="true" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+      <ProjectItem ReplaceParameters="true" TargetFileName="app.js">app.js</ProjectItem>
+      <Folder Name="bin" TargetFolderName="bin">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ChangeConfig.ps1">ChangeConfig.ps1</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="download.ps1">download.ps1</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="node.cmd">node.cmd</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="setup_web.cmd">setup_web.cmd</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="package.json">package.json</ProjectItem>
+      <Folder Name="public" TargetFolderName="public">
+        <Folder Name="fonts" TargetFolderName="fonts">
+          <ProjectItem ReplaceParameters="true" TargetFileName="glyphicons-halflings-regular.eot">glyphicons-halflings-regular.eot</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="glyphicons-halflings-regular.svg">glyphicons-halflings-regular.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="glyphicons-halflings-regular.ttf">glyphicons-halflings-regular.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="glyphicons-halflings-regular.woff">glyphicons-halflings-regular.woff</ProjectItem>
+        </Folder>
+        <Folder Name="javascripts" TargetFolderName="javascripts">
+          <ProjectItem ReplaceParameters="true" TargetFileName="_references.js">_references.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.js">bootstrap.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.js">bootstrap.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.js">jquery.validate.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.min.js">jquery.validate.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.js">jquery.validate.unobtrusive.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.min.js">jquery.validate.unobtrusive.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate-vsdoc.js">jquery.validate-vsdoc.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.10.2.intellisense.js">jquery-1.10.2.intellisense.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.10.2.js">jquery-1.10.2.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.10.2.min.js">jquery-1.10.2.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.10.2.min.map">jquery-1.10.2.min.map</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="modernizr-2.6.2.js">modernizr-2.6.2.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="respond.js">respond.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="respond.min.js">respond.min.js</ProjectItem>
+        </Folder>
+        <Folder Name="stylesheets" TargetFolderName="stylesheets">
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.css">bootstrap.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="bootstrap.min.css">bootstrap.min.css</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="style.styl">style.styl</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="README.md">README.md</ProjectItem>
+      <Folder Name="routes" TargetFolderName="routes">
+        <ProjectItem ReplaceParameters="true" TargetFileName="index.js">index.js</ProjectItem>
+      </Folder>
+      <Folder Name="views" TargetFolderName="views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="about.jade">about.jade</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="contact.jade">contact.jade</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="index.jade">index.jade</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="layout.jade">layout.jade</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

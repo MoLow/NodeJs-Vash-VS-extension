@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TemplateReport>
+  <ItemTemplates />
+  <ProjectTemplates>
+    <ProjectTemplate Path="..\ExpressApp4\_Definitions\_project.vstemplate.xml" Name="Basic Azure Node.js Express 4 app (Vash view engine)" Description="A basic Node.js Express 4 application using Vash view engine for Microsoft Azure" ProjectType="JavaScript" ProjectSubType="" />
+    <ProjectTemplate Path="..\ExpressApp2\_Definitions\_project.vstemplate.xml" Name="Basic Node.js Express 4 App (Vash view engine)" Description="A basic Node.js Express 4 application using Vash View Engine (razor like syntax)" ProjectType="JavaScript" ProjectSubType="" />
+  </ProjectTemplates>
+  <Snippets />
+</TemplateReport>
